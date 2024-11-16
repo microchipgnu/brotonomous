@@ -1,0 +1,22 @@
+{
+  "name": "brotonomous",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.72",
+    "@ai-sdk/swarm": "^0.0.8",
+    "@coinbase/coinbase-sdk": "^0.10.0",
+    "@statelyai/agent": "^1.1.6",
+    "ai": "^3.4.33",
+    "elysia": "^1.1.25",
+    "xstate": "^5.19.0",
+    "zod": "^3.23.8",
+    "zustand": "^5.0.1"
+  }
+}
