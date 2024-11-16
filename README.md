@@ -1,10 +1,12 @@
 # BROtonomous
 
-An autonomous agent that can deploy and promote NFT collections using Coinbase Wallet and social media integration.
+An autonomous agent that can do all sorts of onchain operations using Coinbase Developer Platform.
+
+<img width="996" alt="Captura de ecrã 2024-11-16, às 23 10 55" src="https://github.com/user-attachments/assets/662b90e7-9b49-4a6e-95a8-f2e9d8c4e5d6">
 
 ## Features
 
-- Autonomous NFT collection creation and deployment
+- Autonomous Agent
 - Social media integration (Twitter)
 - Telegram bot for monitoring and control
 - Onchain operations (transfers, trading, balance checks)
