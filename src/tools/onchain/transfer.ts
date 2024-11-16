@@ -1,6 +1,6 @@
 import { tool } from "ai";
 import { z } from "zod";
-import { useStore } from "../state";
+import { useStore } from "../../state";
 
 export const transfer = tool({
   description: "Transfer an asset from the wallet to another onchain address. It takes the amount, the asset ID to transfer, the destination to send the funds (either an onchain address, an ENS `example.eth`, or Basename `example.base.eth`), and whether to do a gasless transfer as inputs. The gasless option is available on `base-sepolia` and `base-mainnet` networks for `usdc` asset only. Always use the gasless option when it is available. Always use the asset ID `usdc` when attempting to transfer USDC. Always ensure that you have enough balance of the input asset ID to complete the transfer.",

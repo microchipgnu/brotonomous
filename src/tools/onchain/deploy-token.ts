@@ -1,6 +1,6 @@
 import { tool } from "ai";
 import { z } from "zod";
-import { useStore } from "../state";
+import { useStore } from "../../state";
 
 export const deployToken = tool({
   description: "Deploy an ERC20 token smart contract. It takes the token name, symbol, and total supply as input. The token will be deployed using the wallet's default address as the owner and initial token holder.",

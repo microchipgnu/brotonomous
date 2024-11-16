@@ -1,6 +1,6 @@
 import { tool } from "ai";
 import { z } from "zod";
-import { useStore } from "../state";
+import { useStore } from "../../state";
 
 export const mintNFT = tool({
   description: "Mint an NFT (ERC-721) to a specified destination address onchain via a contract invocation. It takes the contract address of the NFT onchain and the destination address onchain that will receive the NFT as inputs. Do not use the contract address as the destination address.",

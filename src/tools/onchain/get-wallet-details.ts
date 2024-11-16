@@ -1,6 +1,6 @@
 import { tool } from "ai";
 import { z } from "zod";
-import { useStore } from "../state";
+import { useStore } from "../../state";
 
 export const getWalletDetails = tool({
   description: "Get details about the connected wallet including network and address",

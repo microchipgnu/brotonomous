@@ -1,6 +1,6 @@
 import { tool } from "ai";
 import { z } from "zod";
-import { useStore } from "../state";
+import { useStore } from "../../state";
 
 export const getBalance = tool({
   description: "Get the balance of the wallet for a given asset",

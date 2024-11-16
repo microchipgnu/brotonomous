@@ -1,6 +1,6 @@
 import { tool } from "ai";
 import { z } from "zod";
-import { useStore } from "../state";
+import { useStore } from "../../state";
 
 export const trade = tool({
   description: "Trade a specified amount of a from asset to a to asset for the wallet. It takes the the amount of the from asset to trade, the from asset ID to trade, and the to asset ID to receive from the trade as inputs. Trades are only supported on Mainnets (e.g. `base-mainnet`, `ethereum-mainnet`). Never allow trades on any other network.",
